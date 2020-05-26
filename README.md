@@ -1,6 +1,6 @@
 # Password Generator
 
-## The Purpose
+## Purpose
 
 As an employee with access to sensitive data, it is very convenient to have
 a random password generator that meets certain criteria so that anyone can
@@ -17,3 +17,11 @@ This application gives the user options to:
 * Include special characters
 
 Upon selecting all the options, a password is generated based on the user's responses.
+
+## License
+
+MIT License
+
+Copyright (c) 2020 - Andrew Yen
+
+Licensed under the MIT license.
