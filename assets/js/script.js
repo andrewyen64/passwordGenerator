@@ -4,11 +4,10 @@ var generateBtn = document.querySelector("#generate");
   var upperList = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
   var numberList = "0123456789".split("");
   var specialList = "!#$%&'()*+,-./:;<=>?@[\"]^_`{|}~".split("");
-  var result = [];
-
 
 // Write password to the #password input
 function writePassword() {
+  var result = [];
 
   // Specify password length of at least 8 to no more than 128 characters
   var charLength = prompt("How many characters would you like? (8-128)");
@@ -28,35 +27,27 @@ function writePassword() {
   var lowercase = confirm("Would you like to include lowercase letters?");  
   if (lowercase === true) {
     result = result.concat(lowerList);
-    console.log(result);
   } else {
-    console.log(result);
 
   }
   // Confirm Uppercase
   var uppercase = confirm("Would you like to include uppercase letters?");
   if (uppercase === true) {
     result = result.concat(upperList);
-    console.log(result);
   } else {
-    console.log(result);
   }
   // Confirm Numbers
   var number = confirm("Would you like to include numbers?");
   if (number === true) {
     result = result.concat(numberList);
-    console.log(result);
   } else {
-    console.log(result);
   }
 
   // Confirm Special Characters
   var special = confirm("Would you like special characters?");
   if (special === true) {
     result = result.concat(specialList);
-    console.log(result);
   } else {
-    console.log(result);
   }
 
   // you can create a function named generatePassword that creates the password
