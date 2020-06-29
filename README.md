@@ -1,5 +1,7 @@
 # Password Generator
 
+Link to the Web Page: <https://andrewyen64.github.io/passwordGenerator/>
+
 ## Description
 
 As an employee with access to sensitive data, it is convenient to have
@@ -15,9 +17,8 @@ Upon pressing the "Generate Password" button, the user will be prompted with sev
 * Include numeric characters
 * Include special characters
 
-Upon selecting all the options, a password is generated based on the user's responses.
+Upon selecting all the options, a password is generated based on the user's responses:
 
-An Image of the application:
 ![Image_of_App](https://raw.githubusercontent.com/andrewyen64/passwordGenerator/master/assets/images/password-gen.png)
 
 ## License
