@@ -2,10 +2,8 @@
 var generateBtn = document.querySelector("#generate");
   var lowerList = "abcdefghijklmnopqrstuvwxyz".split("");
   var upperList = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-  var numberList = ["0","1","2","3","4","5","6","7","8","9"];
-  var specialList = ["!","#","$","%","&","'","(",")","*","+",",","-",".","/",",",":",";","<","=",">","?","@","]","}","[","{","^","_","`","|","~"];
-
-  //  \, 
+  var numberList = "0123456789".split("");
+  var specialList = ["!","#","$","%","&","'","(",")","*","+",",","-",".","/",",",":",";","<","=",">","?","@","]","}","[","{","^","_","`","|","~","\\"];
 
 // Write password to the #password input
 function writePassword() {
@@ -63,7 +61,7 @@ function writePassword() {
         alert ("You must select at least one character type!");
       } else {        
         for (var i = 0; i < charLength; i++) {
-          password += result[Math.floor(Math.random() * result.length) + 1];
+          password += result[Math.floor(Math.random() * result.length)];
         }
         passwordText.value = password;
       }
